@@ -1,0 +1,31 @@
+"""
+For future me:
+when you encounter an error in "Compare & Pull request",
+especially it says "There isn't anything to compare", 
+do this.
+
+1. git pull -f origin master : not working
+2. git reset --soft master : not working
+
+3. git pull origin master(or main) --allow-unrelated-histories : it is working!
+"""
+
+
+
+$ git pull origin main --allow-unrelated-histories
+
+
+
+# then you will see "write reasons". Follow the steps
+
+"""
+1. "press "i" to inset
+2. write down your message (e.g., "I made an important change, but the repo does not accept it")
+3. press "esc" to escpae writing mode
+4. write ":wq" to write and quit
+5. press enter
+"""
+
+Now, future me, you will going to wonder about
+why I wasted so much time for this simple problem.
+Future me, you owe now me. 
